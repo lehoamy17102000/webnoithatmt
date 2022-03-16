@@ -1,0 +1,429 @@
+/* CSS Document - Download source mien phi tai http://Sharecode.vn*/
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+td {
+	font-family: Arial, Tahoma, Verdana, "Times New Roman", Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+
+.search {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#000;
+	border:1px #FFF solid;
+	width:150px;
+}
+
+
+#cont-col ul.pager li { 
+	background:#787878; 
+	border:0px solid #3e4447; 
+	padding:2px 8px; 
+	margin:0px 1px; 
+	color:#FFF;
+}
+#cont-col ul.pager li:hover{ 
+	background:#350e00; 
+	border:0px solid #3e4447;
+}
+#cont-col ul.pager li a{ 
+	color:#FFF;
+	font-family:Arial;
+	text-decoration:none; 
+	font-size:12px;
+}
+#cont-col ul.pager li a:hover { 
+	color:#FFF
+}
+
+.item-list .pager {
+	clear: both;
+	text-align: right;
+}
+.item-list .pager li {
+	background-image:none;
+	display:inline;
+	list-style-type:none;
+	padding: 0.5em;
+}
+
+
+
+.style1 {
+	background-image:url(../images/topmenu_bg.jpg);
+	background-repeat:no-repeat;
+	height:32px;
+	padding-left:20px;
+}
+.style2 {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.style3 {
+	font-family:Tahoma;
+	font-size:11px;
+	color:#000;
+	font-weight:bold;
+	height:22px;
+	width:105px;
+}
+.style4 {
+	padding-top:10px;
+}
+.style5 {
+	border:1px #CCC solid;
+	border-top:0px;
+}
+.style6 {
+	background-color:#136eb2;
+	border-bottom:1px #74aad2 solid;
+	height:26px;
+}
+.style7 {
+	border-left:1px #d00c0c solid;
+	border-right:1px #d00c0c solid;
+}
+.style8 {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#000;
+}
+.style9 {
+	font-family:Arial;
+	font-size:15px;
+	color:#136eb2;
+	font-weight:bold;
+}
+.style10 {
+	color:#FF0000;
+	font-weight:bold;
+}
+.style11 {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#000;
+	font-weight:bold;
+	padding-left:10px;
+}
+.style12 {
+	border:1px #CCC solid;
+	border-top:0px;
+	padding:0px 15px 0px 15px;
+}
+.style13 {
+	border:1px #CCC dashed;
+}
+.style14 {
+	font-family:Tahoma;
+	font-size:11px;
+	color:#333;
+	font-weight:bold;
+	background-color:#e6e6e6;
+	text-align:center;
+	height:20px;
+}
+.style15 {
+	padding-bottom:5px;
+}
+.style16 {
+	padding:10px;
+	padding-top:0px;
+}
+.style17 {
+	border-right:1px #CCC solid;
+	background-image:url(../images/c_bg.jpg);
+	background-repeat:repeat-x;
+}
+.style18 {
+	border-bottom:1px #CCC dashed;
+	padding-top:10px;
+}
+.style19 {
+	font-family:Arial;
+	font-size:12px;
+	color:#000;
+}
+.style20 {
+	border:1px #CCC solid;
+	border-top:0px;
+	padding:0px 10px 0px 10px;
+}
+.style21 {
+	padding-right:15px;
+}
+.style22 {
+	padding:10px 0px 10px 0px;
+}
+.style23 {
+	font-family:Tahoma;
+	font-size:10px;
+	color:#999;
+}
+.style24 {
+	background-image:url(../images/bottom_2.jpg);
+	background-repeat:repeat-x;
+}
+.style25 {
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FFF;
+	text-align:center;
+}
+.style26 {
+	border:1px #CCC solid;
+	border-top:0px;
+	padding:7px 15px 7px 15px;
+}
+.style27 {
+	padding:10px 0px 0px 0px;
+	background-image:url(../images/c_bg2.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.style28 {
+	color:#1d679e;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+a:link {
+	font-family: Arial, Tahoma, Verdana, "Times New Roman", Helvetica, sans-serif;
+	font-size:12px;
+	color:#136eb2;
+}
+a:active {
+	font-family: Arial, Tahoma, Verdana, "Times New Roman", Helvetica, sans-serif;
+	font-size:12px;
+	color:#136eb2;
+}
+a:visited {
+	font-family: Arial, Tahoma, Verdana, "Times New Roman", Helvetica, sans-serif;
+	font-size:12px;
+	color:#136eb2;
+}
+a:hover {
+	text-decoration: none;
+	font-family: Arial, Tahoma, Verdana, "Times New Roman", Helvetica, sans-serif;
+	font-size:12px;
+	color:#FF0000;
+}
+
+
+
+.link1:link {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link1:active {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link1:visited {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link1:hover {
+	color:#FFFF00;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+
+.link2:link {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link2:active {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link2:visited {
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link2:hover {
+	color:#000;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+
+.link3:link {
+	color:#333;
+	text-decoration: none;
+}
+.link3:active {
+	color:#333;
+	text-decoration: none;
+}
+.link3:visited {
+	color:#333;
+	text-decoration: none;
+}
+.link3:hover {
+	color:#136eb2;
+	text-decoration: none;
+}
+
+
+
+.link4:link {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link4:active {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link4:visited {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link4:hover {
+	color:#FF0000;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+
+.link5:link {
+	color:#1d679e;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link5:active {
+	color:#1d679e;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link5:visited {
+	color:#1d679e;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration: none;
+}
+.link5:hover {
+	color:#FF0000;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+
+
+.link6:link {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	text-decoration: none;
+}
+.link6:active {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	text-decoration: none;
+}
+.link6:visited {
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	text-decoration: none;
+}
+.link6:hover {
+	color:#136eb2;
+	font-family:Arial;
+	font-size:12px;
+	text-decoration: none;
+}
+
+
+
+.link7:link {
+	color:#FFF;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration: none;
+}
+.link7:active {
+	color:#FFF;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration: none;
+}
+.link7:visited {
+	color:#FFF;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration: none;
+}
+.link7:hover {
+	color:#FFFF00;
+	font-family:Tahoma;
+	font-size:11px;
+	text-decoration: none;
+}
+
+
+
+
+

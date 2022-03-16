@@ -1,0 +1,531 @@
+/*
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fck_editorarea.css
+ * 	This is the default CSS file used by the editor area. It defines the
+ * 	initial font of the editor and background color.
+ * 
+ * 	A user can configure the editor to use another CSS file. Just change
+ * 	the value of the FCKConfig.EditorAreaCSS key in the configuration
+ * 	file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+ */
+
+/*
+    The "body" styles should match your editor web site, mainly regarding
+    background color and font family and size.
+*/
+
+body
+{
+	background-color: #ffffff;
+	padding: 5px 5px 5px 5px;
+	margin: 0px;
+}
+
+body, td
+{
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 12px;
+}
+
+a
+{
+	color: #0000FF !important;	/* For Firefox... mark as important, otherwise it becomes black */
+}
+
+/* 
+	Just uncomment the following block if you want to avoid spaces between 
+	paragraphs. Remember to apply the same style in your output front end page.
+*/
+
+/*
+P, UL, LI
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+*/
+
+/*
+    The following are some sample styles used in the "Styles" toolbar command.
+    You should instead remove them, and include the styles used by the site
+    you are using the editor in.
+*/
+
+.Bold
+{
+	font-weight: bold;
+}
+
+.Title
+{
+	font-weight: bold;
+	font-size: 18px;
+	color: #cc3300;
+}
+
+.Code
+{
+	border: #8b4513 1px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #000066;
+	font-family: 'Courier New' , Monospace;
+	background-color: #ff9933;
+}
+
+
+/*phuong dinh nghia*/
+TD {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+SELECT {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+H1 {
+	COLOR: #003dca; FONT-FAMILY: Tahoma
+}
+H2 {
+	COLOR: #003dca; FONT-FAMILY: Tahoma
+}
+H3 {
+	COLOR: #003dca; FONT-FAMILY: Tahoma
+}
+H4 {
+	COLOR: #003dca; FONT-FAMILY: Tahoma
+}
+H5 {
+	COLOR: #003dca; FONT-FAMILY: Tahoma
+}
+.indent1 {
+	MARGIN-LEFT: 0.5in
+}
+.indent2 {
+	MARGIN-LEFT: 123px
+}
+.indent3 {
+	MARGIN-LEFT: 275px
+}
+.firstlevel {
+	MARGIN-LEFT: 0px
+}
+.withsidebar {
+	MARGIN-LEFT: 155px
+}
+.nosidebar {
+	MARGIN-LEFT: 10px
+}
+.majorlistitem {
+	MARGIN-TOP: 0.4in; MARGIN-BOTTOM: 0.5in; MARGIN-LEFT: 1in; TEXT-INDENT: -0.5in
+}
+.minorlistitem {
+	MARGIN-LEFT: 0.5in; TEXT-INDENT: -0.5in
+}
+.sidebarlink {
+	FONT-SIZE: 10pt; COLOR: #004b8c; FONT-FAMILY: helvetica, arial, sans-serif; TEXT-DECORATION: none
+}
+.sidehead1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidehead2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 9pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidelink1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidelink1selected {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidelink2 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 9pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidelink2selected {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidenonlink {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10pt; COLOR: #004b8c; PADDING-TOP: 2px; FONT-FAMILY: Tahoma
+}
+.sidemarkred {
+	FONT-WEIGHT: bold; VERTICAL-ALIGN: text-top; COLOR: #bf0b20
+}
+.sidemarkgrey {
+	VERTICAL-ALIGN: text-top; COLOR: #999999
+}
+.sidehref {
+	COLOR: #004b8c; TEXT-DECORATION: none
+}
+.sidehref1 {
+	COLOR: #004b8c; TEXT-DECORATION: none; FONT-WEIGHT: bold
+}
+.unmarked {
+	COLOR: #003dca; TEXT-DECORATION: none
+}
+.tablink {
+	FONT-SIZE: 9pt; COLOR: #003dca; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.tabtext {
+	FONT-SIZE: 9pt; COLOR: #c00a21; FONT-FAMILY: Tahoma
+}
+.unmarkedred {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+.tablehdr {
+	FONT-SIZE: 8pt; FONT-FAMILY: Tahoma
+}
+.marginsin {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+.imagesin {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.clearwrap {
+	CLEAR: both
+}
+.leftside {
+	FLOAT: left
+}
+.leftsidepad {
+	PADDING-RIGHT: 0.3in; FLOAT: left; PADDING-BOTTOM: 0.4in
+}
+.rightside {
+	FLOAT: right
+}
+.tablayer {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; LEFT: 147px; VISIBILITY: hidden; BORDER-LEFT: 0px; WIDTH: 603px; BORDER-BOTTOM: 0px; POSITION: absolute; TOP: 121px; HEIGHT: 28px
+}
+.sideinfo {
+	LEFT: 0px; VISIBILITY: hidden; WIDTH: 147px; POSITION: absolute; TOP: 121px; HEIGHT: 372px
+}
+.sitecoll {
+	BACKGROUND: #fef5e3
+}
+.siteserv {
+	BACKGROUND: #fef5e3
+}
+.siteclass {
+	BACKGROUND: #efe9f3
+}
+.siteart {
+	BACKGROUND: #e3e7e8; TEXT-DECORATION: none
+}
+.siteart1 {
+	BACKGROUND: #dedede; TEXT-DECORATION: none
+}
+.siteinfo {
+	BACKGROUND: #dce5f0
+}
+IMG.juxta {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.how_coll {
+	FONT-WEIGHT: bold; BACKGROUND: #fff6e2; WIDTH: 25%; COLOR: #004b8c; FONT-STYLE: italic
+}
+.how_serv {
+	FONT-WEIGHT: bold; BACKGROUND: #e2eee6; WIDTH: 25%; COLOR: #004b8c; FONT-STYLE: italic
+}
+.how_class {
+	FONT-WEIGHT: bold; BACKGROUND: #efe9f2; WIDTH: 25%; COLOR: #004b8c; FONT-STYLE: italic
+}
+.how_art {
+	FONT-WEIGHT: bold; BACKGROUND: #e4e7e8; WIDTH: 25%; COLOR: #004b8c; FONT-STYLE: italic
+}
+.how_info {
+	FONT-WEIGHT: bold; BACKGROUND: #f6f9fe; WIDTH: 25%; COLOR: #004b8c; FONT-STYLE: italic
+}
+.how_gen {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; WIDTH: 75%; PADDING-TOP: 5px
+}
+A.LangLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004b8c; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.LangLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004b8c; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.LMenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #004b8c; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.LMenu:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: royalblue; FONT-FAMILY: Tahoma; TEXT-DECORATION: underline
+}
+A.HMenu {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #004b8e; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.HMenu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004b8e; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link0 {
+	COLOR: black; FONT-FAMILY: arial; TEXT-DECORATION: none
+}
+.txt01 {
+	COLOR: #004b8e
+}
+.BoxLink {
+	FONT-SIZE: 11pt; COLOR: darkslateblue; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+A.link01 {
+	COLOR: lightslategray; TEXT-DECORATION: none
+}
+A.Link02 {
+	COLOR: royalblue; FONT-FAMILY: Tahoma; TEXT-DECORATION: none
+}
+.sidehreftrang
+{
+	COLOR: white; TEXT-DECORATION: none;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	}
+	.sidehrefden
+	{
+		COLOR: black; TEXT-DECORATION: none;
+		font-family:tahoma;
+		font-size:13px;
+		font-weight:bold;
+	}
+	.sidehrefden a
+	{
+		COLOR: black; TEXT-DECORATION: none;
+		font-family:tahoma;
+		font-size:13px;
+		font-weight:bold;
+	}
+	
+
+a.LeftMenu:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.LeftMenu:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.LeftMenu:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.LeftMenu:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.LeftMenuSelect:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuSelect:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuSelect:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuSelect:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.LeftMenuChild:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #004b8c;
+	text-decoration: none;
+}
+a.LeftMenuChild:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color:  #004b8c;
+	text-decoration: none;
+}
+a.LeftMenuChild:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color:  #004b8c;
+	text-decoration: none;
+}
+a.LeftMenuChild:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.LeftMenuChildSelect:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuChildSelect:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuChildSelect:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.LeftMenuChildSelect:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+
+
+a.TopMenu:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.TopMenu:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.TopMenu:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a.TopMenu:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline;
+}
+
+a.TopMenuSelect:link {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+a.TopMenuSelect:visited {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+a.TopMenuSelect:active {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+a.TopMenuSelect:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-decoration: underline;
+}
+
+
+.error {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+
+.successful {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #0000ff;
+}
+
+.ProductTitle {
+	font-family: Arial, Tahoma,  "Times New Roman";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.NormalText {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+
+.ProductText {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #435514;
+}
+.NormalText a{
+	color: #000000;
+	text-decoration:none;
+}
+

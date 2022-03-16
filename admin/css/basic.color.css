@@ -1,0 +1,65 @@
+/*******************************************************
+*  BASIC Template Engine is a simple template engine   *
+*  Copyright @ 2007 the phpGroupVN                     *
+*  website: www.phpbasic.com                           *
+*  Email: admin@phpbasic.com                           *
+********************************************************/
+/*BASIC::CSS colors */
+
+body {background-color: #ccc;} /* body background */
+a:link,a:visited { color: #0028BD; }
+a:hover{color: #f60;}
+a:active{color:#333}
+input,textarea { clear: both; border-color: #ccc; } 
+.button { background: url(../images/nav_bg.gif); }
+#BASIC {background-color: #F5F5F5; border-color: #ccc;	} /* Main */
+#pTop,#pFooter { background-image:url(../images/bg.gif); }
+#pFooter { background-repeat: repeat-x; }
+#loading {color: #fff;background:#f00;}/* Loading */
+#search,#menuService { border-color: #ccc; } /*Border: Menu Left */
+#search .first,#pRight span,#menuService span{ background-image: url(../images/nav_bg.gif);  margin-bottom: 5px; height: 25px; }/* Backgroundd: Menu Left */
+#menuLeft a:hover { background: #fc6;} /* Hover:: Menu Left */
+#pRight p { background:url(../images/side-container.gif) no-repeat; 
+margin: 10px 10px 20px 10px;
+padding: 5px 0px 0px 10px; 
+}
+#pMain #pNav a { border-color: #fff; }
+#pMain #pNav .current { border-bottom-color: #f00; }
+#pMain #pNav a:hover { border-color: #f00; border-bottom-color: #fff; }
+#pComment fieldset,#pComment legend { border-color: #7F9DB9; }
+#pComment legend { background: #eee; }
+/*Module Home */
+.libarycode { border-color:  #eee;	}
+.title_bg { background: #F5F5F5; border-top: 1px solid #FF9738; margin-bottom: 2px; font-weight: bold; margin-top: 10px; }
+.title_icon { float: left; 
+	border: 1px solid #FF9738; 
+	margin-right: 5px;  
+	background: #fff; 
+	margin-left: 3px; 
+	margin-top: 7px; 
+	width: 100px;  }
+.title_icon_right { float:right; background: #ccc; margin-top: 10px;}
+.title_icon_right_skin { float:right;  background: #ccc  ; margin-top: 23px; margin-right: 5px;}
+.title_bg_discuss { background: #eee; border-left: 5px solid #ccc;}
+.title_top  { float:right; font-weight: bold; background: #fff; padding-left: 5px; padding-right: 5px;  }
+.quote { background: #eee; border: 1px solid #ccc;}
+.break_page_right { float:right;  margin-top: 0px;}
+.row_title { background: #D3DCE3; } 
+.row1 { background: #E5E5E5; } 
+.row2 { background: #D5D5D5; } 
+.row_hover { background: #CCFFCC; } 
+.error { color: #FF0000; }
+
+.font_bule {
+	font-family:Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #006699;
+}
+
+.font_xam {
+	font-family:Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+}

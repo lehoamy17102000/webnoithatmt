@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fckstyles.xml
+ * 	This is the sample style definitions file. It makes the styles combo
+ * 	completely customizable.
+ * 	See FCKConfig.StylesXmlPath in the configuration file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+-->
+<Styles>
+	<Style name="Image on Left" element="img">
+		<Attribute name="style" value="padding: 5px; margin-right: 5px" />
+		<Attribute name="border" value="2" />
+		<Attribute name="align" value="left" />
+	</Style>
+	<Style name="Image on Right" element="img">
+		<Attribute name="style" value="padding: 5px; margin-left: 5px" />
+		<Attribute name="border" value="2" />
+		<Attribute name="align" value="right" />
+	</Style>
+	<Style name="Custom Bold" element="span">
+		<Attribute name="style" value="font-weight: bold;" />
+	</Style>
+	<Style name="Custom Italic" element="em" />
+	<Style name="Title" element="span">
+		<Attribute name="class" value="Title" />
+	</Style>
+	<Style name="Code" element="span">
+		<Attribute name="class" value="Code" />
+	</Style>
+	<Style name="Title H3" element="h3" />
+	<Style name="Custom Ruler" element="hr">
+		<Attribute name="size" value="1" />
+		<Attribute name="color" value="#ff0000" />
+	</Style>
+
+	<Style name="sidebarlink" element="span">
+		<Attribute name="class" value="sidebarlink" />
+	</Style>
+	<Style name="sidehead1" element="span">
+		<Attribute name="class" value="sidehead1" />
+	</Style>
+	<Style name="sidehead2" element="span">
+		<Attribute name="class" value="sidehead2" />
+	</Style>
+	<Style name="sidelink1" element="span">
+		<Attribute name="class" value="sidelink1" />
+	</Style>
+	<Style name="sidelink1selected" element="span">
+		<Attribute name="class" value="sidelink1selected" />
+	</Style>
+	<Style name="sidelink2selected" element="span">
+		<Attribute name="class" value="sidelink2selected" />
+	</Style>
+	<Style name="sidenonlink" element="span">
+		<Attribute name="class" value="sidenonlink" />
+	</Style>
+	<Style name="sidemarkred" element="span">
+		<Attribute name="class" value="sidemarkred" />
+	</Style>
+	<Style name="sidemarkgrey" element="span">
+		<Attribute name="class" value="sidemarkgrey" />
+	</Style>
+	<Style name="sidehref" element="span">
+		<Attribute name="class" value="sidehref" />
+	</Style>
+	<Style name="sidehref1" element="span">
+		<Attribute name="class" value="sidehref1" />
+	</Style>
+	<Style name="unmarked" element="span">
+		<Attribute name="class" value="unmarked" />
+	</Style>
+	<Style name="tablink" element="span">
+		<Attribute name="class" value="tablink" />
+	</Style>
+	<Style name="tabtext" element="span">
+		<Attribute name="class" value="tabtext" />
+	</Style>
+	<Style name="unmarkedred" element="span">
+		<Attribute name="class" value="unmarkedred" />
+	</Style>
+	<Style name="tablehdr" element="span">
+		<Attribute name="class" value="tablehdr" />
+	</Style>
+	<Style name="marginsin" element="span">
+		<Attribute name="class" value="marginsin" />
+	</Style>
+	<Style name="imagesin" element="span">
+		<Attribute name="class" value="imagesin" />
+	</Style>
+	<Style name="tablayer" element="span">
+		<Attribute name="class" value="tablayer" />
+	</Style>
+	<Style name="sideinfo" element="span">
+		<Attribute name="class" value="sideinfo" />
+	</Style>
+	<Style name="sitecoll" element="span">
+		<Attribute name="class" value="sitecoll" />
+	</Style>
+	<Style name="siteserv" element="span">
+		<Attribute name="class" value="siteserv" />
+	</Style>
+	<Style name="siteclass" element="span">
+		<Attribute name="class" value="siteclass" />
+	</Style>
+	<Style name="siteart" element="span">
+		<Attribute name="class" value="siteart" />
+	</Style>
+	<Style name="how_coll" element="span">
+		<Attribute name="class" value="how_coll" />
+	</Style>
+	<Style name="sidehreftrang" element="span">
+		<Attribute name="class" value="sidehreftrang" />
+	</Style>
+	<Style name="sidehrefden" element="span">
+		<Attribute name="class" value="sidehrefden" />
+	</Style>
+	<Style name="error" element="span">
+		<Attribute name="class" value="error" />
+	</Style>
+	<Style name="successful" element="span">
+		<Attribute name="class" value="successful" />
+	</Style>
+	<Style name="ProductTitle" element="span">
+		<Attribute name="class" value="ProductTitle" />
+	</Style>
+	<Style name="NormalText" element="span">
+		<Attribute name="class" value="NormalText" />
+	</Style>
+	<Style name="ProductText" element="span">
+		<Attribute name="class" value="ProductText" />
+	</Style>
+	<Style name="error" element="span">
+		<Attribute name="class" value="error" />
+	</Style>
+	
+</Styles>
